@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(50, 20px); /* 50 columns */
+    grid-gap: 2px;
+  }
+  
+  .square {
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .square.clicked {
+    background-color: skyblue;
+  }
+  
